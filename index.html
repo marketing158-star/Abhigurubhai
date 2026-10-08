@@ -3,8 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VIP Telegram Channel</title>
+    <title>GURU BHAI SATTA KING</title>
     
+    <!-- FontAwesome CDN for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
     <!-- Meta Pixel Code -->
     <script>
     !function(f,b,e,v,n,t,s)
@@ -36,314 +39,265 @@
         }
 
         body {
-            background-color: #060713;
-            background-image: 
-                radial-gradient(at 0% 0%, rgba(121, 40, 202, 0.3) 0px, transparent 50%),
-                radial-gradient(at 100% 100%, rgba(0, 242, 254, 0.25) 0px, transparent 50%),
-                radial-gradient(at 50% 50%, rgba(255, 0, 127, 0.15) 0px, transparent 50%);
+            background: linear-gradient(180deg, #2b1845 0%, #3e1233 45%, #7e1227 100%);
             background-attachment: fixed;
             color: #ffffff;
-            display: flex;
-            justify-content: center;
-            align-items: center;
             min-height: 100vh;
-            padding: 16px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
 
-        /* VIP Cyber Card Outer Frame */
-        .vip-card {
+        /* Top Yellow Banner */
+        .top-banner {
             width: 100%;
-            max-width: 400px;
-            background: linear-gradient(160deg, #ff007f, #7928ca, #00f2fe);
-            border-radius: 26px;
-            padding: 2.5px;
-            box-shadow: 
-                0 0 40px rgba(121, 40, 202, 0.5),
-                0 20px 50px rgba(0, 0, 0, 0.9);
-            position: relative;
-        }
-
-        .card-inner {
-            background: #0b0d1e;
-            border-radius: 24px;
-            padding: 26px 20px;
+            background-color: #fbc02d;
+            color: #000000;
             text-align: center;
-            position: relative;
-            overflow: hidden;
-        }
-
-        /* Top Cyber Banner Badge */
-        .top-tag {
-            display: inline-block;
-            background: linear-gradient(90deg, #ff007f, #7928ca);
-            color: #fff;
-            font-size: 11px;
+            padding: 12px;
             font-weight: 800;
-            text-transform: uppercase;
-            letter-spacing: 1.5px;
-            padding: 6px 18px;
-            border-radius: 30px;
-            box-shadow: 0 0 15px rgba(255, 0, 127, 0.5);
-            margin-bottom: 18px;
+            font-size: 18px;
+            letter-spacing: 0.5px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
         }
 
-        /* Profile Ring Neon */
+        .main-container {
+            width: 100%;
+            max-width: 420px;
+            padding: 24px 16px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /* Profile Image Ring */
         .avatar-box {
             position: relative;
-            width: 100px;
-            height: 100px;
-            margin: 0 auto 16px;
-        }
-
-        .avatar-box::before {
-            content: '';
-            position: absolute;
-            inset: -4px;
+            width: 140px;
+            height: 140px;
+            margin: 10px auto 16px;
             border-radius: 50%;
-            background: linear-gradient(45deg, #00f2fe, #ff007f, #7928ca, #00f2fe);
-            background-size: 300% 300%;
-            animation: glowGradient 3s ease infinite;
-        }
-
-        @keyframes glowGradient {
-            0% { background-position: 0% 50%; }
-            50% { background-position: 100% 50%; }
-            100% { background-position: 0% 50%; }
+            border: 4px solid #fbc02d;
+            overflow: hidden;
+            box-shadow: 0 0 20px rgba(251, 192, 45, 0.4);
         }
 
         .profile-img {
-            position: relative;
             width: 100%;
             height: 100%;
-            border-radius: 50%;
             object-fit: cover;
-            border: 3px solid #0b0d1e;
-            z-index: 1;
         }
 
-        /* Title with Neon Gradient Text */
+        /* Title */
         h1 {
-            font-size: 20px;
+            font-size: 22px;
             font-weight: 900;
-            background: linear-gradient(90deg, #00f2fe, #ffffff, #ff007f);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            margin-bottom: 12px;
+            color: #fbc02d;
+            margin-bottom: 10px;
             letter-spacing: 0.5px;
             text-transform: uppercase;
         }
 
-        /* Subtext Box */
-        .sub-text {
+        h1 span {
             font-size: 13px;
-            color: #cbd5e1;
-            line-height: 1.5;
-            background: rgba(255, 255, 255, 0.03);
-            border-left: 3px solid #00f2fe;
-            border-right: 3px solid #ff007f;
-            padding: 10px 12px;
-            border-radius: 8px;
-            margin-bottom: 16px;
+            vertical-align: super;
         }
 
-        /* Badge and Users Grid */
-        .grid-stats {
-            display: flex;
-            gap: 8px;
-            justify-content: center;
-            margin-bottom: 16px;
-        }
-
-        .stat-pill {
-            flex: 1;
-            background: rgba(0, 242, 254, 0.08);
-            border: 1px solid rgba(0, 242, 254, 0.25);
-            color: #00f2fe;
-            padding: 8px 6px;
-            border-radius: 10px;
-            font-size: 11px;
+        /* Description Sub-text */
+        .sub-text {
+            font-size: 15px;
             font-weight: 700;
+            color: #ffeb3b;
+            line-height: 1.5;
+            margin-bottom: 16px;
+            padding: 0 8px;
         }
 
-        .stat-pill.users {
-            background: rgba(255, 0, 127, 0.08);
-            border-color: rgba(255, 0, 127, 0.25);
-            color: #ff70ba;
+        /* Stats Row */
+        .stats-info {
+            font-size: 13px;
+            font-weight: 700;
+            color: #ffffff;
+            margin-bottom: 6px;
         }
 
-        /* Info List */
+        .stats-info span {
+            color: #fbc02d;
+        }
+
+        .users-count {
+            font-size: 13px;
+            font-weight: 700;
+            color: #64b5f6;
+            margin-bottom: 20px;
+        }
+
+        /* Info Boxes (Cards) */
         .info-list {
+            width: 100%;
             display: flex;
             flex-direction: column;
-            gap: 8px;
-            margin-bottom: 18px;
+            gap: 12px;
+            margin-bottom: 20px;
         }
 
         .info-box {
-            background: rgba(255, 255, 255, 0.04);
-            border: 1px solid rgba(255, 255, 255, 0.08);
-            color: #ffffff;
-            padding: 11px;
-            border-radius: 10px;
-            font-size: 13px;
-            font-weight: 700;
+            background-color: #fffde7;
+            color: #000000;
+            padding: 14px;
+            border-radius: 12px;
+            font-size: 15px;
+            font-weight: 800;
             letter-spacing: 0.3px;
-            box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+            border: 1px solid rgba(255, 255, 255, 0.6);
         }
 
-        /* Neon Animated Button */
+        /* Redirecting Timer Text */
+        .timer-badge {
+            color: #ffeb3b;
+            font-size: 18px;
+            font-weight: 800;
+            margin-bottom: 16px;
+        }
+
+        /* Bottom CTA Button */
         .cta-btn {
-            background: linear-gradient(90deg, #ff007f, #7928ca, #00f2fe);
-            background-size: 200% auto;
-            color: #ffffff;
+            background-color: #fbc02d;
+            color: #000000;
             font-weight: 900;
-            font-size: 15.5px;
-            letter-spacing: 0.8px;
-            padding: 15px;
+            font-size: 17px;
+            letter-spacing: 0.5px;
+            padding: 16px;
             width: 100%;
             border: none;
-            border-radius: 14px;
+            border-radius: 12px;
             cursor: pointer;
-            box-shadow: 0 0 25px rgba(255, 0, 127, 0.6);
-            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(251, 192, 45, 0.5);
+            transition: transform 0.2s ease, opacity 0.2s ease;
             text-transform: uppercase;
-            animation: btnShift 3s infinite linear;
-        }
-
-        @keyframes btnShift {
-            0% { background-position: 0% center; }
-            50% { background-position: 100% center; }
-            100% { background-position: 0% center; }
         }
 
         .cta-btn:active {
-            transform: scale(0.96);
+            transform: scale(0.98);
         }
 
-        /* Timer Badge */
-        .timer-badge {
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            gap: 6px;
-            color: #00f2fe;
-            background: rgba(0, 242, 254, 0.1);
-            border: 1px solid rgba(0, 242, 254, 0.3);
-            padding: 6px 16px;
-            border-radius: 30px;
-            font-size: 12px;
-            font-weight: 700;
-            margin-top: 14px;
-        }
-
-        .footer-text {
-            margin-top: 14px;
-            font-size: 11px;
-            color: #64748b;
-        }
-
-        .footer-text span {
-            color: #ff007f;
-            font-weight: 700;
+        .hidden {
+            display: none !important;
         }
     </style>
 </head>
 <body>
 
-    <div class="vip-card">
-        <div class="card-inner">
-            <!-- Top Tag -->
-            <div class="top-tag">🔥 Official VIP Channel</div>
+    <!-- Top Banner -->
+    <div class="top-banner">
+        JOIN TELEGRAM CHANNEL
+    </div>
 
-            <!-- प्रोफाइल फोटो -->
-            <div class="avatar-box">
-                <img src="profile.png" alt="Profile" class="profile-img">
-            </div>
-
-            <!-- हेडिंग -->
-            <h1>👑 𝙂𝙐𝙍𝙐 𝘽𝙃𝘼𝙄 𝙎𝘼𝙏𝙏𝘼 𝙆𝙄𝙉𝙂
-</h1>
-
-            <!-- डिस्क्रिप्शन -->
-            <p class="sub-text">
-                डेली सिंगल जोड़ी फ्री मिलेगी। ख़बर सबसे पहले पाने के लिए टेलीग्राम चैनल ज्वाइन करें 👑
-            </p>
-
-            <!-- ग्रिड स्टैट्स -->
-            <div class="grid-stats">
-                <div class="stat-pill">⚡ ALL MATKA GAMES</div>
-                <div class="stat-pill users">👥 40k+ JOINED</div>
-            </div>
-
-            <!-- इन्फो बॉक्स लिस्ट -->
-            <div class="info-list">
-                <div class="info-box">🤝 💎 फरीदाबाद, गाजियाबाद 💎</div>
-                <div class="info-box">🤝 💎 गली , दिसावर 💎</div>
-                <div class="info-box">📚 1001% FIX GAME MILEGA</div>
-            </div>
-
-            <!-- मुख्य टेलीग्राम बटन -->
-            <button id="telegramLink" class="cta-btn" onclick="trackButtonClick()">
-                🚀 JOIN TELEGRAM CHANNEL
-            </button>
-
-            <!-- टाइमर -->
-            <div class="timer-badge" id="timer">
-                ⏱ Redirecting in 30...
-            </div>
-
-            <!-- फुटर -->
-            <div class="footer-text">Managed by <span>elite marketing</span></div>
+    <div class="main-container">
+        <!-- Profile Image -->
+        <div class="avatar-box">
+            <img src="profile.png" alt="Profile" class="profile-img">
         </div>
+
+        <!-- Heading -->
+        <h1>👑 बाज़ीगर भाई ❤️(( 𝐒𝐀𝐓𝐓𝐀 𝐊𝐈𝐍𝐆 ))
+</span></h1>
+
+        <!-- Subtext -->
+        <p class="sub-text">
+            डेली सिंगल जोड़ी रोजाना आपको इस टेलीग्राम पर फ्री मिलेगी ख़बर सबसे पहले मिलेगी टेलीग्राम चैनल ज्वाइन करो गेम मिलेंगे 👑
+        </p>
+
+        <!-- Stats -->
+        <div class="stats-info">
+            <i class="fa-solid fa-bolt" style="color: #fbc02d;"></i> ALL MATKA GAMES AVAILABLE <i class="fa-solid fa-bolt" style="color: #fbc02d;"></i> Best Expert
+        </div>
+        <div class="users-count">
+            👥 20k+ users joined
+        </div>
+
+        <!-- Info List Cards -->
+        <div class="info-list">
+            <div class="info-box">🤝 💎 गाजियाबाद फरीदाबाद 💎</div>
+            <div class="info-box">🤝 💎 गली , दिसावर 💎</div>
+            <div class="info-box">📚 1001% FIX GAME MILEGA</div>
+        </div>
+
+        <!-- Timer -->
+        <div class="timer-badge" id="timer">
+            Redirecting in 3...
+        </div>
+
+        <!-- Main CTA Button -->
+        <button id="telegramLink" class="cta-btn" onclick="trackButtonClick()">
+            JOIN TELEGRAM CHANNEL
+        </button>
     </div>
 
     <script>
-        var isClicked = false;
-        var telegramUrl = "https://t.me/+yM6lBH3LorFkNGQ1"; 
-        var pageLoadTime = Date.now();
-
-        if (sessionStorage.getItem('hasClickedTelegram')) {
-            isClicked = true;
-        }
+        var telegramUrl = "https://t.me/+we1VmotMbCFmMzE1";
 
         function trackButtonClick() {
-            var currentTime = Date.now();
-            var timeSpent = (currentTime - pageLoadTime) / 1000;
+            var btn = document.getElementById('telegramLink');
 
-            if (timeSpent < 0.8) {
+            // 1. Check: क्या यूजर इस ब्राउज़र सेशन में पहले ही क्लिक कर चुका है?
+            if (sessionStorage.getItem('telegram_clicked') === 'true') {
+                // अगर पहले से क्लिक हो चुका है, तो Meta Pixel FIRE नहीं होगा!
+                // सीधे तुरंत Telegram पर भेज दिया जाएगा।
                 window.location.href = telegramUrl;
                 return;
             }
 
-            if (!isClicked) {
-                isClicked = true;
-                sessionStorage.setItem('hasClickedTelegram', 'true');
+            // 2. अगर यह पहला क्लिक है, तो ब्राउज़र की मेमोरी (sessionStorage) में लॉक कर दें
+            sessionStorage.setItem('telegram_clicked', 'true');
 
-                if (typeof fbq !== 'undefined') {
-                    fbq('trackCustom', 'TelegramBtnClick'); 
-                    fbq('track', 'Subscribe'); 
-                }
+            // 3. Meta Pixel Conversion Events (सिर्फ 1 बार ही ट्रिगर होंगे)
+            if (typeof fbq !== 'undefined') {
+                fbq('trackCustom', 'TelegramBtnClick'); 
+                fbq('track', 'Subscribe'); 
+                fbq('track', 'Lead'); 
+            }
 
-                var btn = document.getElementById('telegramLink');
-                if (btn) {
-                    btn.style.pointerEvents = 'none';
-                    btn.style.opacity = '0.7';
-                }
+            // 4. बटन को विजुअली डिसेबल (Disable) कर दें
+            if (btn) {
+                btn.style.pointerEvents = 'none'; // क्लिक्स ब्लॉक
+                btn.style.opacity = '0.7';       // हल्का धुंधला
+                btn.innerHTML = '<span style="display: flex; align-items: center; justify-content: center; gap: 8px;"><i class="fa-solid fa-spinner fa-spin"></i> Connecting...</span>';
+            }
 
-                setTimeout(function() {
-                    window.location.href = telegramUrl;
-                }, 300);
-            } else {
+            // 5. Redirection Delay (300ms ताकि Meta Pixel Data को सेंड कर सके)
+            setTimeout(function() {
                 window.location.href = telegramUrl;
+            }, 300);
+        }
+
+        // Toggle Modal Helper Functions
+        function toggleModal(modalId) {
+            var modal = document.getElementById(modalId);
+            if (modal) {
+                modal.classList.toggle('hidden');
             }
         }
 
-        var timeLeft = 30;
+        // अगर यूजर Back बटन दबाकर वापस आए, तो बटन नॉर्मल कर दें लेकिन Click Count 1 ही रहेगा
+        window.addEventListener('pageshow', function() {
+            var btn = document.getElementById('telegramLink');
+            if (btn && sessionStorage.getItem('telegram_clicked') === 'true') {
+                btn.style.pointerEvents = 'auto';
+                btn.style.opacity = '1';
+                btn.innerHTML = 'JOIN TELEGRAM CHANNEL';
+            }
+        });
+
+        // Countdown Timer Logic
+        var timeLeft = 3;
         var timerElement = document.getElementById('timer');
         var countdown = setInterval(function() {
             timeLeft--;
             if (timeLeft > 0) {
-                timerElement.innerText = "⏱ Redirecting in " + timeLeft + "...";
+                timerElement.innerText = "Redirecting in " + timeLeft + "...";
             } else {
                 clearInterval(countdown);
                 timerElement.innerText = "⚡ Redirecting now...";
